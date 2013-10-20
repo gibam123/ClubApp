@@ -12,7 +12,7 @@ public class ConexionDB {
 	try {
 		Class.forName("com.mysql.jdbc.Driver");
 		con = DriverManager.getConnection("jdbc:mysql://localhost/clubapp",
-					"root", "msyql");
+					"root", "mysql");
 	} catch (ClassNotFoundException e) {
 		e.printStackTrace();
 	} catch (Exception e) {

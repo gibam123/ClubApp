@@ -6,17 +6,18 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="#">Project name</a>
+          <a class="brand" href="#">Club App</a>
+          
           <div class="nav-collapse collapse" style="height: 0px;">
             <p class="navbar-text pull-right">
-              Logged in as <a href="#" class="navbar-link">Username</a>
+              Autenticado como <a href="#" class="navbar-link">Usuario</a>
             </p>
-            <ul class="nav">
+            <!--<ul class="nav">
               <li class="active"><a href="#">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
+            </ul>-->
+          </div>
         </div>
       </div>
     </div>
