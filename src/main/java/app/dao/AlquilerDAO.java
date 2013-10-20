@@ -88,7 +88,7 @@ public class AlquilerDAO extends BaseDAO{
 
             stmt.setString(1, alquiler.getHoraInicio());
             stmt.setString(2, alquiler.getHoraFin());
-    //        stmt.setDate(3, alquiler.getFecha());
+     //       stmt.setDate(3, alquiler.getFecha());
             stmt.setString(4, alquiler.getServicios());
             stmt.setInt(5, alquiler.getEstado());
             
@@ -124,7 +124,7 @@ public class AlquilerDAO extends BaseDAO{
             stmt = con.prepareStatement(query);
             stmt.setString(1, alquiler.getHoraInicio());
             stmt.setString(2, alquiler.getHoraFin());
-  //          stmt.setInt(3, alquiler.getFecha());
+     //       stmt.setInt(3, alquiler.getFecha());
             stmt.setString(4, alquiler.getServicios());
             stmt.setInt(5, alquiler.getEstado());
             stmt.setLong(6, alquiler.getId());
